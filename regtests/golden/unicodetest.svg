@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="297 -827 352.8 530" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-800.0">
+      Zürich
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-800.0">
+      Zürich
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-780.0">
+      X äöü Y
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-780.0">
+      X äöü Y
+    </text>
+  </g>
+</svg>
