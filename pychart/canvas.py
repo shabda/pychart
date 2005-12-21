@@ -62,6 +62,8 @@ def init(fname = None, format = None):
         can = x11canvas.T(fname)
     elif format == "svg":               
         can = svgcanvas.T(fname)
+    elif format == "pdf-uncompressed":               
+        can = pdfcanvas.T(fname, False)
     else:
         can = pdfcanvas.T(fname, theme.compress_output)
     return can

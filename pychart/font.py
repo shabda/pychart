@@ -129,7 +129,8 @@ def line_width(font, size, text):
         if code < len(table):
             width += table[code]
         else:
-            width += 10000
+            # Invalid char. Make up a number.
+            width += table[0]
             
     width = float(width) * size / 1000.0
     return width
@@ -216,12 +217,12 @@ class text_state:
         
 class text_iterator:
     def __init__(self, s):
-        self.str = str(s)
+        self.str = unicode(s)
         self.i = 0
         self.ts = text_state()
         self.stack = []
     def reset(self, s):
-	self.str = str(s)
+	self.str = unicode(s)
 	self.i = 0
 
     def __return_state(self, ts, str):
@@ -370,7 +371,7 @@ def unaligned_get_dimension(text):
     halign = None
     valign = None
     itr = text_iterator(None)
-    for line in str(text).split('\n'):
+    for line in unicode(text).split('\n'):
         cur_height = 0
         cur_width = 0
 	itr.reset(line)
@@ -381,13 +382,13 @@ def unaligned_get_dimension(text):
             (font, size, line_height, color, new_h, new_v, new_a, chunk) = elem
             if halign != None and new_h != halign:
                 raise FontException('Only one "/h" can appear in a string.',
-                                    str(text))
+                                    unicode(text))
             if valign != None and new_v != valign:
                 raise FontException('Only one "/v" can appear in a string.',
-                                    str(text))
+                                    unicode(text))
             if angle != None and new_a != angle:
                 raise FontException('Only one "/a" can appear in a string.',
-                                    str(text))
+                                    unicode(text))
             halign = new_h
             valign = new_v
             angle = new_a

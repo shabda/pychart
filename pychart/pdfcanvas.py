@@ -168,7 +168,7 @@ class T(basecanvas.T):
             self.__font_name = font_name
             self.__font_size = font_size
         self.set_fill_color(color)
-        self.__write("(%s) Tj " % (str))
+        self.__write("(%s) Tj " % (str.encode('mac_roman')))
 
     def push_transformation(self, baseloc, scale, angle, in_text = 0):
         if in_text:

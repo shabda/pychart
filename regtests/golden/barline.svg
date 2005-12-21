@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
-<svg viewBox="267.492 -464 230.015 203.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="267.492 -429.441 230.015 168.941" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <clipPath id="clip0">
       <path d="M 297 -297 L 297 -423 L 453 -423 L 453 -297 Z"/>
@@ -68,35 +68,6 @@
     </text>
     <text style="stroke:none;fill:rgb(0,0,0);" x="361.24349999999998" y="-263.5">
       X label
-    </text>
-    <path d="M 300 -420 L 450 -420"/>
-    <path d="M 300 -420 L 450 -420"/>
-    <path d="M 300.0 -420 L 300.0 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="294.99599999999998" y="-426.0">
-      10
-    </text>
-    <path d="M 327.27272727272725 -420 L 327.27272727272725 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="318.5157272727273" y="-426.0">
-      20.0
-    </text>
-    <path d="M 354.54545454545456 -420 L 354.54545454545456 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="345.78845454545456" y="-426.0">
-      30.0
-    </text>
-    <path d="M 381.81818181818181 -420 L 381.81818181818181 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="373.06118181818181" y="-426.0">
-      40.0
-    </text>
-    <path d="M 409.09090909090912 -420 L 409.09090909090912 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="400.33390909090906" y="-426.0">
-      50.0
-    </text>
-    <path d="M 436.36363636363637 -420 L 436.36363636363637 -426"/>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="427.60663636363637" y="-426.0">
-      60.0
-    </text>
-    <text style="stroke:none;fill:rgb(0,0,0);" x="355.74450000000002" y="-447.5">
-      X label(2)
     </text>
     <path d="M 300 -314.11764705882354 L 450 -314.11764705882354" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
     <path d="M 300 -328.23529411764707 L 450 -328.23529411764707" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>

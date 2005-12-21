@@ -57,6 +57,9 @@ class T(object):
             # To mask this difference, we handle the bool type specially.
             if value not in (True, False):
                 raise TypeError, "%s: Expecting bool, but got %s" % (self, value)
+        elif typeval == str:
+            if not isinstance(value, str) and not isinstance(value, unicode):
+                raise TypeError, "%s: Expecting a string, but got %s" % (self, value)
         elif isinstance(typeval, types.FunctionType):
             # user-defined check procedure
             error = apply(typeval, (value,))

@@ -309,7 +309,7 @@ class T(basecanvas.T):
                           font_style=font_style,
                           font_weight=font_weight,
                           font_stretch=font_stretch)
-        self.__cur_element.appendChild(self.__doc.createTextNode(string))
+        self.__cur_element.appendChild(self.__doc.createTextNode(string.encode('utf-8')))
     def text_end(self):
         if (self.__cur_element.nodeName != 'text') :
             raise ValueError, "No text for close"
