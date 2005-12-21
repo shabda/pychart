@@ -27,7 +27,7 @@ regression: all
 	for psfile in *.eps; do echo $$psfile; ps2ps $$psfile /dev/null; done
 
 clean:
-	rm -f *.eps *~ *.pyc *.ps foo.* *.bak *.gif *.png *.pdf
+	rm -f *.eps *~ *.pyc *.ps foo.* *.bak *.gif *.png *.pdf *.svg
 
 PYTHON?=python
 #PYTHON=jython
