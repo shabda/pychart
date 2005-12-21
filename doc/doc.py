@@ -1,11 +1,11 @@
 from pychart import *
 import pychart.doc_support
-import optik
+import optparse
 import string
 import sys
 import re
 
-parser = optik.OptionParser()
+parser = optparse.OptionParser()
 parser.add_option("-S", "--ps", action="store_true", default=None)
 parser.add_option("-D", "--pdf", action="store_true", default=None)
 parser.add_option("-X", "--pychart-dir", action="store", default=None)
@@ -175,7 +175,7 @@ while True:
                       "%s.%s" % (basename, ext))
 
         print "\\includegraphics{%s}\n" % (basename)
-        print description, "\n"
+        print "\\noindent \\textbf{", description, "}\n"
         print "Below is the source code that produces the above chart."
         include_text_file(demoDir + basename + ".py")
         continue

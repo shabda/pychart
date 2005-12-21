@@ -22,9 +22,9 @@ from scaling import *
 
 try:
     import zlib
-    _zlib_available_p = 1
+    _zlib_available_p = True
 except:
-    _zlib_available_p = 0
+    _zlib_available_p = False
 
 class pdf_stream(object):
     def __init__(self, fp):
@@ -36,16 +36,16 @@ class pdf_stream(object):
     def tell(self):
         return self.off
 
-def to_radian(deg):
-    return deg*2*math.pi / 360.0
-
 class T(basecanvas.T):
-    def __init__(self, fname, compress_p_):
+    def __init__(self, fname, compress_p):
         basecanvas.T.__init__(self)
         self.__out_fname = fname
         self.__reset_context()
         self.__next_obj_id = 1
         self.__next_font_id = 1
+
+        # Maps integer object id -> the file offset where the object definition
+        # is found
         self.__obj_offsets = {}
 
         # Maps font name -> integer font ID.
@@ -54,13 +54,13 @@ class T(basecanvas.T):
         self.__lines = []
         self.__nr_gsave = 0
 
-	if compress_p_ and not _zlib_available_p:
-	    pychart_util.warn("Zlib not available. Compression request ignored.\n")
-	    compress_p_ = 0
-        self.__compress_p = compress_p_
+	if compress_p and not _zlib_available_p:
+	    pychart_util.warn('Zlib not available. Compression request ignored.\n')
+	    compress_p = 0
+        self.__compress_p = compress_p
 
     def __register_font(self, name):
-        "Assign an ID to the font NAME. Return its ID."
+        """Assign an ID to the font NAME. Return its ID."""
         if not self.__registered_fonts.has_key(name):
             self.__registered_fonts[name] = self.__next_font_id
             self.__next_font_id += 1
@@ -111,8 +111,8 @@ class T(basecanvas.T):
         return
 
     def __arcsub(self, x, y, radius, start, theta):
-	xcos = math.cos(to_radian(theta))
-	xsin = math.sin(to_radian(theta))
+	xcos = math.cos(basecanvas.to_radian(theta))
+	xsin = math.sin(basecanvas.to_radian(theta))
 	x0 = radius * xcos
 	y0 = radius * xsin
  	x1 = radius * (4-xcos)/3.0
@@ -156,8 +156,8 @@ class T(basecanvas.T):
         self.__write("ET\n")
     def text_moveto(self, x, y, angle):
 	if angle != None:
-	    xcos = math.cos(to_radian(angle))
-	    xsin = math.sin(to_radian(angle))
+	    xcos = math.cos(basecanvas.to_radian(angle))
+	    xsin = math.sin(basecanvas.to_radian(angle))
 	    self.__write("%f %f %f %f %f %f Tm " % (xcos, xsin, -xsin, xcos, x, y))
 	else:
 	    self.__write("1 0 0 1 %f %f Tm " % (x, y))
@@ -181,7 +181,7 @@ class T(basecanvas.T):
             baseloc = (0,0)
 
         if angle != None:
-            radian = to_radian(angle)
+            radian = basecanvas.to_radian(angle)
             self.__write("%f %f %f %f %f %f %s\n" %
                          (math.cos(radian), math.sin(radian),
                           -math.sin(radian), math.cos(radian),

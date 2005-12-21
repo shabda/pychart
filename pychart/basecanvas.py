@@ -22,10 +22,16 @@ import theme
 import version
 from scaling import *
 
+# The list of canvases that are created but not yet closed.
+active_canvases = []
+
+# A really big number.
+InvalidCoord = 999999
+
 def _compute_bounding_box(points):
     """Given the list of coordinates (x,y), this procedure computes
     the smallest rectangle that covers all the points."""
-    (xmin, ymin, xmax, ymax) = (999999, 999999, -999999, -999999)
+    (xmin, ymin, xmax, ymax) = (InvalidCoord, InvalidCoord, -InvalidCoord, -InvalidCoord)
     for p in points:
         xmin = min(xmin, p[0])
         xmax = max(xmax, p[0])
@@ -34,6 +40,11 @@ def _compute_bounding_box(points):
     return (xmin, ymin, xmax, ymax)
 
 def _intersect_box(b1, b2):
+    """Each argument is a four-tuple of numbers, representing a bounding box.
+    This function computes the intersection of the two boxes.  The result
+    would be undefined if the two boxes don't intersect.
+    """
+    
     xmin = max(b1[0], b2[0])
     ymin = max(b1[1], b2[1])
     xmax = min(b1[2], b2[2])
@@ -53,9 +64,6 @@ def midpoint(p1, p2):
     return ( (p1[0]+p2[0])/2.0, (p1[1]+p2[1])/2.0 )
 
 
-active_canvases = []
-
-InvalidCoord = 999999
 class T(object):
     def __init__(self):
         global active_canvases
@@ -68,12 +76,17 @@ class T(object):
         self.__clip_stack = []
         self.__nr_gsave = 0
 
-        self.title = theme.title or re.sub("(.*)\\.py$", "\\1", sys.argv[0])
-        self.creator = theme.creator or "pychart %s" % (version.version,)
+        self.title = theme.title
+        if not self.title:
+            # mod_python doesn't have sys.argv: do safe lookup.
+            argv0 = sys.__dict__.get('argv', ['unknown'])[0]
+            self.title = re.sub(r'(.*)\.py$', '\\1', argv0)
+            
+        self.creator = theme.creator or 'pychart %s' % (version.version,)
         self.creation_date = theme.creation_date or \
-                             time.strftime("(%m/%d/%y) (%I:%M %p)")
+                             time.strftime('(%m/%d/%y) (%I:%M %p)')
         self.author = theme.author
-        self.aux_comments = theme.aux_comments or ""
+        self.aux_comments = theme.aux_comments or ''
         active_canvases.append(self)
 
     def set_title(self, s):
@@ -97,10 +110,10 @@ class T(object):
         self.aux_comments += s
 
     def close(self):
-        """This method closes the canvas and writes
-        contents to the associated file.
-        Calling this procedure is optional, because
-        Pychart calls this procedure for every open canvas on normal exit."""
+        """This method closes the canvas and writes contents to the
+        associated file.  Calling this procedure is optional, because
+        Pychart calls this procedure for every open canvas on normal
+        exit."""
         for i in range(0, len(active_canvases)):
             if active_canvases[i] == self:
                 del active_canvases[i]
@@ -121,10 +134,10 @@ class T(object):
         if not fname:
             return (sys.stdout, False)
         elif isinstance(fname, str):
-            return (file(fname, "wb"), True)
+            return (file(fname, 'wb'), True)
         else:
-            if not hasattr(fname, "write"):
-                raise Exception, "Expecting either a filename or a file-like object, but got %s" % fname
+            if not hasattr(fname, 'write'):
+                raise Exception, 'Expecting either a filename or a file-like object, but got %s' % fname
             return (fname, False)
 
     def setbb(self, x, y):
@@ -442,11 +455,11 @@ canvas.endclip()
         base_y = y
 
         # Handle vertical alignment
-        if valign == "B":
+        if valign == 'B':
             y = font.unaligned_text_height(str)
-        elif valign == "T":
+        elif valign == 'T':
             y = 0
-        elif valign == "M":
+        elif valign == 'M':
             y = font.unaligned_text_height(str) / 2.0
 
         (xmin, xmax, ymin, ymax) = font.get_dimension(org_str)
@@ -477,8 +490,8 @@ canvas.endclip()
 
                 # replace '(' -> '\(', ')' -> '\)' to make
                 # Postscript string parser happy.
-                str = str.replace("(", "\\(")
-                str = str.replace(")", "\\)")
+                str = str.replace('(', '\\(')
+                str = str.replace(')', '\\)')
                 strs.append((font_name, size, color, str))
             lines.append((cur_width, cur_height, strs))
 
@@ -486,7 +499,7 @@ canvas.endclip()
             cur_width, cur_height, strs = line
             cur_y = y - cur_height
             y = y - cur_height
-            self.comment("cury: %d hei %d str %s\n" % (cur_y, cur_height, strs))
+            self.comment('cury: %d hei %d str %s\n' % (cur_y, cur_height, strs))
             if halign == 'C':
                 cur_x = -cur_width/2.0
             elif halign == 'R':

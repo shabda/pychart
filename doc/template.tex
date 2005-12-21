@@ -1146,8 +1146,8 @@ direction from fill_style.Diag."""
 
 \declaremodule{extension}{font}
 
-You can display text strings in chart as a part of axis labels, plot
-labels, legends, etc. You can also display an arbitrary text in an
+You can display text strings in chart as part of axis labels, plot
+labels, legends, and such. You can also display an arbitrary text at an
 arbitrary location using annotations (\pxref{module-text-box}) or
 \code{canvas.show} function (\pxref{module-canvas}).
 
@@ -1286,6 +1286,21 @@ manipulating texts and fonts:
 \begin{funcdesc}{get_dimension}{text}
 @pydescribe{font.get_dimension}
 \end{funcdesc}
+
+\subsection{Displaying Unicode strings}
+\index{Unicode}
+\index{Latin}
+\index{CJK}
+
+Starting from version 1.39, \pychart{} can display single-byte Unicode
+characters (that is, code point below 256), such as European umlaut
+and accent characters. \emph{It still does not support composite
+  fonts, including Chinese, Japanese, and Korean} (volunteer
+contributions welcome!!). To display a Unicode text, pass a Python's
+\code{unicode} string to the text-drawing functions, such as
+\code{canvas.show}.  Below is an example.
+
+@samplechartandcode{unicodetest, Unicode example}
 
 \section{Annotation}
 \index{arrow (extension module)}

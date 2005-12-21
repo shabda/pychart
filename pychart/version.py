@@ -11,6 +11,6 @@
 # FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
 # for more details.
 #
-version = "1.38"
-copyright = "Copyright 1999-2005 Yasushi Saito"
+version = "1.39"
+copyright = "Copyright 1999-2006 Yasushi Saito"
 

@@ -2,3 +2,13 @@ demos/*.eps
 demos/*.svg
 demos/*.pdf
 demos/*.png
+doc/*.eps
+doc/*.svg
+doc/*.pdf
+doc/*.png
+doc/examples
+doc/pychart
+doc/pychart.tex
+./MANIFEST
+.coverage
+*,cover

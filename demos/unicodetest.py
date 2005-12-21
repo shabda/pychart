@@ -12,6 +12,8 @@
 # FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
 # for more details.
 #
+
+# -*- coding: utf-8 -*-
 from pychart import *
 can = canvas.default_canvas()
 x, y = (100, 500)

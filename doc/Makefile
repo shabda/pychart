@@ -1,5 +1,5 @@
 PYCHART_DIR=..
-PYTHON_DOC_DIR=$(HOME)/Python-2.4.2/Doc
+PYTHON_DOC_DIR=$(HOME)/Python-2.4.1/Doc
 all: pychart examples
 
 pychart: pychart.tex

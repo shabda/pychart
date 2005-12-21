@@ -5,5 +5,5 @@ Compiling python.tex requires following packages:
 
 - LaTeX (TeX). It's most likely to be knows as 'tetex' on Linux.
 
-- Linux2html.
+- Latex2html.
 
