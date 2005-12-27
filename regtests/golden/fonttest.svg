@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="297 -827 514.8 530" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-800.0">
+      Left align
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-800.0">
+      /12/hLLeft align
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="343.31200000000001" y="-780.0">
+      Right align
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-780.0">
+      /12/hRRight align
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="367.654" y="-760.0">
+      Center align
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-760.0">
+      /12/hCCenter align
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" transform="rotate(-20,343.585,-719.466)" x="343.58461381849719" y="-719.4664786753001">
+      Angled text
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-740.0">
+      /a20/12/hRAngled text
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-668.0">
+      /12/vTTop align
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="550.0" y="-674.0">
+      /12/vT
+      Middle align
+    </text>
+    <text style="font-size:12;stroke:none;fill:rgb(0,0,0);" x="700.0" y="-680.0">
+      /12/vT
+      Bottom align
+    </text>
+    <text style="font-size:16;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-640.0">
+      Helvetica
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-640.0">
+      /16/HHelvetica
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-620.0">
+      Courier
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-620.0">
+      /12/CCourier
+    </text>
+    <text style="font-size:12;font-stretch:condensed;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-600.0">
+      Helvetica-Narrow
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-600.0">
+      /12/NHelvetica-Narrow
+    </text>
+    <text style="font-size:12;font-family:Palatino;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-580.0">
+      Palatino-Roman
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-580.0">
+      /12/PPalatino-Roman
+    </text>
+    <text style="font-size:12;font-family:AvantGarde;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-560.0">
+      Avantgarde
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-560.0">
+      /12/AAvantgarde
+    </text>
+    <text style="font-size:12;font-family:Times;font-style:italic;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-540.0">
+      Times-Italic
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-540.0">
+      /12/T/iTimes-Italic
+    </text>
+    <text style="font-size:12;font-family:ZapfDingbats;stroke:none;fill:rgb(0,0,0);" x="400.0" y="-520.0">
+      ZapfDingbats
+    </text>
+    <text style="font-size:12;font-family:CourierNew;stroke:none;fill:rgb(0,0,0);" x="600.0" y="-520.0">
+      /12/FZapfDingbats
+      ZapfDingbats
+    </text>
+  </g>
+</svg>

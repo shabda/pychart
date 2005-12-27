@@ -1,0 +1,48 @@
+<h1>Incompatible changes made in the past</h1>
+
+<h2> Between 1.24 and 1.25</h2>
+
+<ul>
+	Changed the handling of coordinate
+	system. Instead of passing a string such as "linear", "log", 
+	or "category" to "x_coord_system" (or "y_coord_system") attribute of
+	the area.T object, we now pass an instance of linear_coord.T,
+	log_coord.T, or category_coord.T to "x_coord" or "y_coord" attribute.
+	This allows for	cleaner separation between the coordinate
+	system and the drawing of "area" components. For example:
+
+<pre>
+	ar = area.T(x_coord_system = "linear", ...)
+</pre>
+
+	becomes
+
+<pre>
+	ar = area.T(x_coord = linear_coord.T(), ...)
+</pre>
+
+(In fact, because x_coord defaults to linear_coord.T(), you can just write
+ar = area.T(...) in the above example).
+
+<pre>
+	ar = area.T(x_coord_system = "category", x_category_data = data,
+	            x_category_col = col, ...)
+</pre>
+	becomes
+	
+<pre>
+	ar = area.T(x_coord = category_coord.T(data, col), ...)
+</pre>
+</ul>
+
+<h2> Between 1.20 and 1.21</h2>
+
+<ul>
+<li> pychart/line_style.py (init): grayXXdashY is renamed to
+	grayXX_dashY. For example, gray7dash3 is now gray70_dash3.
+<li> pychart/color.py (T.__str__): Changed the naming scheme of
+	color.grayXX to match that of rgb.txt in X. For example, gray1 is
+	renamed to gray10, gray5 is renamed to gray50, etc. Also, to avoid
+	confusion, colors known as "gray1" in rgb.txt (or gray2, gray3,
+	etc) are renamed to gray01, gray02, gray03, etc.
+</ul>

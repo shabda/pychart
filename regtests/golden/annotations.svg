@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="297 -531 300.344 234" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 395 -395 L 461.01599999999996 -395 L 461.016 -395 L 461.01599999999996 -409 L 461.016 -409 L 395 -409 L 395 -409 L 395 -395 L 395 -395 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 395 -425 L 423.99900000000002 -425 L 423.999 -425 L 423.99900000000002 -448 L 423.999 -448 L 395 -448 L 395 -448 L 395 -425 L 395 -425 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 395 -455 L 443.00700000000001 -455 L 443.007 -455 L 443.00700000000001 -469 L 443.007 -469 L 395 -469 L 395 -469 L 395 -455 L 395 -455 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 475 -395 L 494.0 -395 L 494 -395 L 494.0 -474.53800000000001 L 494 -474.538 L 475 -474.53800000000001 L 475 -474.538 L 475 -395 L 475 -395 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip0);">
+      <path d="M 395 -395 L 395 -409 L 461.01599999999996 -409 L 461.01599999999996 -395 Z" style="stroke:none;"/>
+    </g>
+    <g>
+      <path d="M 395 -395 L 461.01599999999996 -395 L 461.016 -395 L 461.01599999999996 -409 L 461.016 -409 L 395 -409 L 395 -409 L 395 -395 L 395 -395 Z"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-400.0">
+        Without frame
+      </text>
+      <g transform="translate(395,-400) rotate(-180)">
+        <path d="M 0 0 L 37.799999999999997 0"/>
+      </g>
+      <g style="fill:rgb(0,0,0);">
+        <g transform="translate(395,-400) rotate(-180)">
+          <path d="M 33.799999999999997 2.0 L 37.0 0 L 33.799999999999997 -2.0 L 45.0 0 Z" style="stroke:none;"/>
+        </g>
+        <g transform="translate(461.016,-400)">
+          <path d="M 0 0 L 11.784000000000038 0" style="fill:none;"/>
+        </g>
+        <g>
+          <g transform="translate(461.016,-400)">
+            <path d="M 7.7840000000000371 2.0 L 10.984000000000037 0 L 7.7840000000000371 -2.0 L 18.984000000000037 0 Z" style="stroke:none;"/>
+          </g>
+          <g style="fill:rgb(255,255,255);clip-path:url(#clip1);">
+            <path d="M 395 -425 L 395 -448 L 423.99900000000002 -448 L 423.99900000000002 -425 Z" style="stroke:none;"/>
+          </g>
+          <g>
+            <path d="M 395 -425 L 423.99900000000002 -425 L 423.999 -425 L 423.99900000000002 -448 L 423.999 -448 L 395 -448 L 395 -448 L 395 -425 L 395 -425 Z" style="fill:none;"/>
+            <text style="stroke:none;" x="400.0" y="-439.0">
+              Multi
+            </text>
+            <text style="stroke:none;font-weight:bold;" x="400.2475" y="-430.0">
+              Line
+            </text>
+            <g transform="translate(395,-425) rotate(173.66)">
+              <path d="M 0 0 L 38.076925690687084 0" style="fill:none;"/>
+            </g>
+            <g>
+              <g transform="translate(395,-425) rotate(173.66)">
+                <path d="M 34.076925690687084 2.0 L 37.276925690687087 0 L 34.076925690687084 -2.0 L 45.276925690687087 0 Z" style="stroke:none;"/>
+              </g>
+              <g transform="translate(423.999,-425) rotate(24.057)">
+                <path d="M 0 0 L 54.127905565085108 0" style="fill:none;"/>
+              </g>
+              <g>
+                <g transform="translate(423.999,-425) rotate(24.057)">
+                  <path d="M 50.127905565085108 2.0 L 53.327905565085111 0 L 50.127905565085108 -2.0 L 61.327905565085111 0 Z" style="stroke:none;"/>
+                </g>
+                <g style="fill:rgb(255,255,255);clip-path:url(#clip2);">
+                  <path d="M 395 -455 L 395 -469 L 443.00700000000001 -469 L 443.00700000000001 -455 Z" style="stroke:none;"/>
+                </g>
+                <text style="stroke:none;" x="400.0" y="-460.0">
+                  Fat arrow
+                </text>
+                <g transform="translate(443.007,-462) rotate(30.7403)">
+                  <path d="M 0 0 L 32.240469897527838 0" style="stroke-width:2;fill:none;"/>
+                </g>
+                <g>
+                  <g transform="translate(443.007,-462) rotate(30.7403)">
+                    <path d="M 26.240469897527834 5.0 L 31.040469897527835 0 L 26.240469897527834 -5.0 L 43.040469897527835 0 Z" style="stroke:none;"/>
+                  </g>
+                  <g style="fill:rgb(179,179,179);clip-path:url(#clip3);">
+                    <path d="M 475 -395 L 475 -474.53800000000001 L 494.0 -474.53800000000001 L 494.0 -395 Z" style="stroke:none;"/>
+                  </g>
+                  <g>
+                    <path d="M 475 -395 L 494.0 -395 L 494 -395 L 494.0 -474.53800000000001 L 494 -474.538 L 475 -474.53800000000001 L 475 -474.538 L 475 -395 L 475 -395 Z" style="fill:none;"/>
+                    <text style="stroke:none;" transform="rotate(-90,480,-400)" x="480.0" y="-400.0">
+                      Funny background
+                    </text>
+                    <g>
+                      <path d="M 475 -435 L 594.34400000000005 -435 L 594.344 -435 L 594.34400000000005 -484 L 594.344 -484 L 475 -484 L 475 -484 L 475 -435 L 475 -435 Z" style="fill:none;"/>
+                      <text style="font-size:20;stroke:none;" x="480.0" y="-464.0">
+                        Big
+                        Text
+                      </text>
+                      <text style="font-size:24;font-weight:bold;stroke:none;" x="480.0" y="-440.0">
+                        Huge
+                        Text
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

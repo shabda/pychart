@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="247 -416.5 217.012 163.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 410 -320 L 410 -320 M 410 -320 A 80 64 0 1 0 250 -320 A 80 64 0 1 0 410 -320 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 297 -297 L 297 -413 L 423 -413 L 423 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 297 -297 L 297 -413 L 423 -413 L 423 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 290 -290 L 290 -420 L 430 -420 L 430 -290 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 427.0 -297 L 427.0 -309 L 461.012 -309 L 461.012 -297 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-weight:normal;font-stretch:normal;stroke:rgb(0,0,0);stroke-linecap:butt;stroke-dasharray:4,4;stroke-width:1.5;font-family:Helvetica;font-style:normal;fill:none;">
+    <path d="M 330 -320 M 410.0 -320.0 L 410 -320 M 410 -320 A 80 64 0 1 0 250 -320 A 80 64 0 1 0 410 -320 Z"/>
+    <g style="clip-path:url(#clip0);">
+      <path d="M 300 -300 L 420 -300" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <path d="M 300 -300 L 420 -300" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <path d="M 300.0 -300 L 300.0 -294" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="294.99599999999998" y="-285.0">
+        10
+      </text>
+      <path d="M 334.28571428571428 -300 L 334.28571428571428 -294" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="325.52871428571427" y="-285.0">
+        20.0
+      </text>
+      <path d="M 368.57142857142856 -300 L 368.57142857142856 -294" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="359.81442857142855" y="-285.0">
+        30.0
+      </text>
+      <path d="M 402.85714285714289 -300 L 402.85714285714289 -294" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="394.10014285714283" y="-285.0">
+        40.0
+      </text>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="350.74349999999998" y="-270.5">
+        Stuff
+      </text>
+      <path d="M 300 -320.0 L 420 -320.0" style="stroke:rgb(179,179,179);stroke-width:0.4;stroke-dasharray:1,1;"/>
+      <path d="M 300 -340.0 L 420 -340.0" style="stroke:rgb(179,179,179);stroke-width:0.4;stroke-dasharray:1,1;"/>
+      <path d="M 300 -360.0 L 420 -360.0" style="stroke:rgb(179,179,179);stroke-width:0.4;stroke-dasharray:1,1;"/>
+      <path d="M 300 -380.0 L 420 -380.0" style="stroke:rgb(179,179,179);stroke-width:0.4;stroke-dasharray:1,1;"/>
+      <path d="M 300 -400.0 L 420 -400.0" style="stroke:rgb(179,179,179);stroke-width:0.4;stroke-dasharray:1,1;"/>
+      <path d="M 300 -300 L 300 -410" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <path d="M 300 -300.0 L 294 -300.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="283.99200000000002" y="-295.5">
+        20
+      </text>
+      <path d="M 300 -320.0 L 294 -320.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-315.5">
+        30.0
+      </text>
+      <path d="M 300 -340.0 L 294 -340.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-335.5">
+        40.0
+      </text>
+      <path d="M 300 -360.0 L 294 -360.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-355.5">
+        50.0
+      </text>
+      <path d="M 300 -380.0 L 294 -380.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-375.5">
+        60.0
+      </text>
+      <path d="M 300 -400.0 L 294 -400.0" style="stroke-width:0.4;stroke-dasharray:none;"/>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-395.5">
+        70.0
+      </text>
+      <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-90,271.986,-343.493)" x="271.98599999999999" y="-343.49349999999998">
+        Value
+      </text>
+      <g style="clip-path:url(#clip1);">
+        <g style="clip-path:url(#clip2);">
+          <path d="M 300.0 -300.0 L 334.28571428571428 -390.0 L 368.57142857142856 -370.0 L 402.85714285714289 -350.0" style="stroke-width:1.2;stroke-dasharray:none;"/>
+        </g>
+        <g style="clip-path:url(#clip3);">
+          <path d="M 297.5 -297.5 L 302.5 -302.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 302.5 -297.5 L 297.5 -302.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 300.0 -296.46499999999997 L 300.0 -303.53500000000003" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 296.46499999999997 -300.0 L 303.53500000000003 -300.0" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 331.78571428571428 -387.5 L 336.78571428571428 -392.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 336.78571428571428 -387.5 L 331.78571428571428 -392.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 334.28571428571428 -386.46500000000003 L 334.28571428571428 -393.53499999999997" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 330.75071428571431 -390.0 L 337.8207142857143 -390.0" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 366.07142857142856 -367.5 L 371.07142857142856 -372.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 371.07142857142856 -367.5 L 366.07142857142856 -372.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 368.57142857142856 -366.46500000000003 L 368.57142857142856 -373.53499999999997" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 365.03642857142859 -370.0 L 372.10642857142858 -370.0" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 400.35714285714289 -347.5 L 405.35714285714289 -352.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 405.35714285714289 -347.5 L 400.35714285714289 -352.5" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 402.85714285714289 -346.46500000000003 L 402.85714285714289 -353.53499999999997" style="stroke-width:1;stroke-dasharray:none;"/>
+          <path d="M 399.32214285714286 -350.0 L 406.39214285714286 -350.0" style="stroke-width:1;stroke-dasharray:none;"/>
+        </g>
+      </g>
+      <g style="fill:rgb(255,255,255);clip-path:url(#clip4);">
+        <path d="M 427.0 -297 L 427.0 -309 L 461.012 -309 L 461.012 -297 Z" style="stroke:none;"/>
+      </g>
+      <g style="stroke-width:0.4;stroke-dasharray:none;">
+        <path d="M 427.0 -297 L 427.0 -309 L 461.012 -309 L 461.012 -297 Z"/>
+        <path d="M 432.0 -303.0 L 441.0 -303.0" style="stroke-width:1.2;"/>
+        <path d="M 434.0 -300.5 L 439.0 -305.5" style="stroke-width:1;"/>
+        <path d="M 439.0 -300.5 L 434.0 -305.5" style="stroke-width:1;"/>
+        <path d="M 436.5 -299.46499999999997 L 436.5 -306.53500000000003" style="stroke-width:1;"/>
+        <path d="M 432.96500000000003 -303.0 L 440.03499999999997 -303.0" style="stroke-width:1;"/>
+        <text style="stroke:none;fill:rgb(0,0,0);" x="441.0" y="-300.0">
+          foo
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

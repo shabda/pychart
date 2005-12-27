@@ -1,0 +1,12 @@
+interval charts demo is broken.
+
+area.T and axis.{X,Y} should be merged. There are many duplicate
+functionalities.
+
+Pychart doesn't do a good job of automatically determining min and max
+X/Y values.
+
+Y zapping support is totally broken.
+
+There should be a more flexible way to specify data sets other than
+using data & x_col attributes.

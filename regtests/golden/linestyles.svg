@@ -1,0 +1,289 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="297 -816 506 519" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 395 -781 L 426.00599999999997 -781 L 426.006 -781 L 426.00599999999997 -795 L 426.006 -795 L 395 -795 L 395 -795 L 395 -781 L 395 -781 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 455 -772 L 494.51999999999998 -772 L 494.52 -772 L 494.51999999999998 -795 L 494.52 -795 L 455 -795 L 455 -795 L 455 -772 L 455 -772 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 515 -772 L 554.51999999999998 -772 L 554.52 -772 L 554.51999999999998 -795 L 554.52 -795 L 515 -795 L 515 -795 L 515 -772 L 515 -772 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 575 -781 L 612.51300000000003 -781 L 612.513 -781 L 612.51300000000003 -795 L 612.513 -795 L 575 -795 L 575 -795 L 575 -781 L 575 -781 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 635 -772 L 675.50999999999999 -772 L 675.51 -772 L 675.50999999999999 -795 L 675.51 -795 L 635 -795 L 635 -795 L 635 -772 L 635 -772 Z"/>
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="M 695 -772 L 735.50999999999999 -772 L 735.51 -772 L 735.50999999999999 -795 L 735.51 -795 L 695 -795 L 695 -795 L 695 -772 L 695 -772 Z"/>
+    </clipPath>
+    <clipPath id="clip6">
+      <path d="M 755 -781 L 792.51300000000003 -781 L 792.513 -781 L 792.51300000000003 -795 L 792.513 -795 L 755 -795 L 755 -795 L 755 -781 L 755 -781 Z"/>
+    </clipPath>
+    <clipPath id="clip7">
+      <path d="M 395 -732 L 435.50999999999999 -732 L 435.51 -732 L 435.50999999999999 -755 L 435.51 -755 L 395 -755 L 395 -755 L 395 -732 L 395 -732 Z"/>
+    </clipPath>
+    <clipPath id="clip8">
+      <path d="M 455 -732 L 495.50999999999999 -732 L 495.51 -732 L 495.50999999999999 -755 L 495.51 -755 L 455 -755 L 455 -755 L 455 -732 L 455 -732 Z"/>
+    </clipPath>
+    <clipPath id="clip9">
+      <path d="M 515 -741 L 552.51300000000003 -741 L 552.513 -741 L 552.51300000000003 -755 L 552.513 -755 L 515 -755 L 515 -755 L 515 -741 L 515 -741 Z"/>
+    </clipPath>
+    <clipPath id="clip10">
+      <path d="M 575 -732 L 615.50999999999999 -732 L 615.51 -732 L 615.50999999999999 -755 L 615.51 -755 L 575 -755 L 575 -755 L 575 -732 L 575 -732 Z"/>
+    </clipPath>
+    <clipPath id="clip11">
+      <path d="M 635 -732 L 675.50999999999999 -732 L 675.51 -732 L 675.50999999999999 -755 L 675.51 -755 L 635 -755 L 635 -755 L 635 -732 L 635 -732 Z"/>
+    </clipPath>
+    <clipPath id="clip12">
+      <path d="M 695 -741 L 732.51300000000003 -741 L 732.513 -741 L 732.51300000000003 -755 L 732.513 -755 L 695 -755 L 695 -755 L 695 -741 L 695 -741 Z"/>
+    </clipPath>
+    <clipPath id="clip13">
+      <path d="M 755 -732 L 795.50999999999999 -732 L 795.51 -732 L 795.50999999999999 -755 L 795.51 -755 L 755 -755 L 755 -755 L 755 -732 L 755 -732 Z"/>
+    </clipPath>
+    <clipPath id="clip14">
+      <path d="M 395 -692 L 435.50999999999999 -692 L 435.51 -692 L 435.50999999999999 -715 L 435.51 -715 L 395 -715 L 395 -715 L 395 -692 L 395 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip15">
+      <path d="M 455 -701 L 492.51300000000003 -701 L 492.513 -701 L 492.51300000000003 -715 L 492.513 -715 L 455 -715 L 455 -715 L 455 -701 L 455 -701 Z"/>
+    </clipPath>
+    <clipPath id="clip16">
+      <path d="M 515 -692 L 555.50999999999999 -692 L 555.51 -692 L 555.50999999999999 -715 L 555.51 -715 L 515 -715 L 515 -715 L 515 -692 L 515 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip17">
+      <path d="M 575 -692 L 615.50999999999999 -692 L 615.51 -692 L 615.50999999999999 -715 L 615.51 -715 L 575 -715 L 575 -715 L 575 -692 L 575 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip18">
+      <path d="M 635 -692 L 674.51999999999998 -692 L 674.52 -692 L 674.51999999999998 -715 L 674.52 -715 L 635 -715 L 635 -715 L 635 -692 L 635 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip19">
+      <path d="M 695 -692 L 735.50999999999999 -692 L 735.51 -692 L 735.50999999999999 -715 L 735.51 -715 L 695 -715 L 695 -715 L 695 -692 L 695 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip20">
+      <path d="M 755 -692 L 795.50999999999999 -692 L 795.51 -692 L 795.50999999999999 -715 L 795.51 -715 L 755 -715 L 755 -715 L 755 -692 L 755 -692 Z"/>
+    </clipPath>
+    <clipPath id="clip21">
+      <path d="M 395 -652 L 435.50999999999999 -652 L 435.51 -652 L 435.50999999999999 -675 L 435.51 -675 L 395 -675 L 395 -675 L 395 -652 L 395 -652 Z"/>
+    </clipPath>
+    <clipPath id="clip22">
+      <path d="M 455 -652 L 495.50999999999999 -652 L 495.51 -652 L 495.50999999999999 -675 L 495.51 -675 L 455 -675 L 455 -675 L 455 -652 L 455 -652 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <path d="M 400 -800 L 440 -800"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip0);">
+      <path d="M 395 -781 L 395 -795 L 426.00599999999997 -795 L 426.00599999999997 -781 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-786.0">
+      black
+    </text>
+    <path d="M 460 -800 L 500 -800" style="stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip1);">
+      <path d="M 455 -772 L 455 -795 L 494.51999999999998 -795 L 494.51999999999998 -772 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-786.0">
+      black-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-777.0">
+      _dash1
+    </text>
+    <path d="M 520 -800 L 560 -800" style="stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip2);">
+      <path d="M 515 -772 L 515 -795 L 554.51999999999998 -795 L 554.51999999999998 -772 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="520.0" y="-786.0">
+      black-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="520.0" y="-777.0">
+      _dash2
+    </text>
+    <path d="M 580 -800 L 620 -800" style="stroke:rgb(179,179,179);"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip3);">
+      <path d="M 575 -781 L 575 -795 L 612.51300000000003 -795 L 612.51300000000003 -781 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="580.0" y="-786.0">
+      gray70
+    </text>
+    <path d="M 640 -800 L 680 -800" style="stroke:rgb(179,179,179);stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip4);">
+      <path d="M 635 -772 L 635 -795 L 675.50999999999999 -795 L 675.50999999999999 -772 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-786.0">
+      gray70-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-777.0">
+      _dash1
+    </text>
+    <path d="M 700 -800 L 740 -800" style="stroke:rgb(179,179,179);stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip5);">
+      <path d="M 695 -772 L 695 -795 L 735.50999999999999 -795 L 735.50999999999999 -772 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="700.0" y="-786.0">
+      gray70-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="700.0" y="-777.0">
+      _dash2
+    </text>
+    <path d="M 760 -800 L 800 -800" style="stroke:rgb(26,26,26);"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip6);">
+      <path d="M 755 -781 L 755 -795 L 792.51300000000003 -795 L 792.51300000000003 -781 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="760.0" y="-786.0">
+      gray10
+    </text>
+    <path d="M 400 -760 L 440 -760" style="stroke:rgb(26,26,26);stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip7);">
+      <path d="M 395 -732 L 395 -755 L 435.50999999999999 -755 L 435.50999999999999 -732 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-746.0">
+      gray10-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-737.0">
+      _dash1
+    </text>
+    <path d="M 460 -760 L 500 -760" style="stroke:rgb(26,26,26);stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip8);">
+      <path d="M 455 -732 L 455 -755 L 495.50999999999999 -755 L 495.50999999999999 -732 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-746.0">
+      gray10-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-737.0">
+      _dash2
+    </text>
+    <path d="M 520 -760 L 560 -760" style="stroke:rgb(126,126,126);"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip9);">
+      <path d="M 515 -741 L 515 -755 L 552.51300000000003 -755 L 552.51300000000003 -741 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="520.0" y="-746.0">
+      gray50
+    </text>
+    <path d="M 580 -760 L 620 -760" style="stroke:rgb(126,126,126);stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip10);">
+      <path d="M 575 -732 L 575 -755 L 615.50999999999999 -755 L 615.50999999999999 -732 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="580.0" y="-746.0">
+      gray50-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="580.0" y="-737.0">
+      _dash1
+    </text>
+    <path d="M 640 -760 L 680 -760" style="stroke:rgb(126,126,126);stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip11);">
+      <path d="M 635 -732 L 635 -755 L 675.50999999999999 -755 L 675.50999999999999 -732 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-746.0">
+      gray50-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-737.0">
+      _dash2
+    </text>
+    <path d="M 700 -760 L 740 -760" style="stroke:rgb(228,228,228);"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip12);">
+      <path d="M 695 -741 L 695 -755 L 732.51300000000003 -755 L 732.51300000000003 -741 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="700.0" y="-746.0">
+      gray90
+    </text>
+    <path d="M 760 -760 L 800 -760" style="stroke:rgb(228,228,228);stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip13);">
+      <path d="M 755 -732 L 755 -755 L 795.50999999999999 -755 L 795.50999999999999 -732 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="760.0" y="-746.0">
+      gray90-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="760.0" y="-737.0">
+      _dash1
+    </text>
+    <path d="M 400 -720 L 440 -720" style="stroke:rgb(228,228,228);stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip14);">
+      <path d="M 395 -692 L 395 -715 L 435.50999999999999 -715 L 435.50999999999999 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-706.0">
+      gray90-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-697.0">
+      _dash2
+    </text>
+    <path d="M 460 -720 L 500 -720" style="stroke:rgb(77,77,77);"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip15);">
+      <path d="M 455 -701 L 455 -715 L 492.51300000000003 -715 L 492.51300000000003 -701 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-706.0">
+      gray30
+    </text>
+    <path d="M 520 -720 L 560 -720" style="stroke:rgb(77,77,77);stroke-dasharray:1.5,1.5;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip16);">
+      <path d="M 515 -692 L 515 -715 L 555.50999999999999 -715 L 555.50999999999999 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="520.0" y="-706.0">
+      gray30-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="520.0" y="-697.0">
+      _dash1
+    </text>
+    <path d="M 580 -720 L 620 -720" style="stroke:rgb(77,77,77);stroke-dasharray:5,2,5,2;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip17);">
+      <path d="M 575 -692 L 575 -715 L 615.50999999999999 -715 L 615.50999999999999 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="580.0" y="-706.0">
+      gray30-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="580.0" y="-697.0">
+      _dash2
+    </text>
+    <path d="M 640 -720 L 680 -720" style="stroke-dasharray:1,1;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip18);">
+      <path d="M 635 -692 L 635 -715 L 674.51999999999998 -715 L 674.51999999999998 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-706.0">
+      black-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="640.0" y="-697.0">
+      _dash3
+    </text>
+    <path d="M 700 -720 L 740 -720" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip19);">
+      <path d="M 695 -692 L 695 -715 L 735.50999999999999 -715 L 735.50999999999999 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="700.0" y="-706.0">
+      gray70-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="700.0" y="-697.0">
+      _dash3
+    </text>
+    <path d="M 760 -720 L 800 -720" style="stroke:rgb(26,26,26);stroke-dasharray:1,1;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip20);">
+      <path d="M 755 -692 L 755 -715 L 795.50999999999999 -715 L 795.50999999999999 -692 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="760.0" y="-706.0">
+      gray10-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="760.0" y="-697.0">
+      _dash3
+    </text>
+    <path d="M 400 -680 L 440 -680" style="stroke:rgb(126,126,126);stroke-dasharray:1,1;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip21);">
+      <path d="M 395 -652 L 395 -675 L 435.50999999999999 -675 L 435.50999999999999 -652 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-666.0">
+      gray50-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-657.0">
+      _dash3
+    </text>
+    <path d="M 460 -680 L 500 -680" style="stroke:rgb(228,228,228);stroke-dasharray:1,1;"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip22);">
+      <path d="M 455 -652 L 455 -675 L 495.50999999999999 -675 L 495.50999999999999 -652 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-666.0">
+      gray90-
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="460.0" y="-657.0">
+      _dash3
+    </text>
+  </g>
+</svg>

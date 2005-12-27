@@ -1,0 +1,63 @@
+<h1>Frequently asked questions</h1>
+
+<dl>
+<dt> Q: How do I install pychart?
+<dd> Unpack the package, and do "python setup.py install".
+
+<dt> Q: Does pychart support Windows?
+<dd> Yes. But you need to install <a href="www.python.org">Python</a>
+and <a href="http://www.cs.wisc.edu/~ghost/">Ghostscript</a>
+beforehand.
+
+<dt> Q: Why can't I print the letter "/"? 
+<dd> The letter "/" is used as the escape-sequence marker (for example,
+"/a60" rotates the text by 60 degrees). To display letter "/" itself,
+you must write "//". Function "font.quotemeta" can be used to do that
+conversion automatically.
+
+<dt> Q: I get a following error.
+
+<pre>
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "/mount/cello/home/ysaito/pychart/pychart/canvas.py", line 60, in _exit
+    can.close()
+  File "/nfs/cello-home/home/ysaito/pychart/pychart/pngcanvas.py", line 22, in close
+    self.start_gs(gs_args)
+  File "/nfs/cello-home/home/ysaito/pychart/pychart/gs_frontend.py", line 58, in start_gs
+    self.__write_contents(self.pipe_fp)
+  File "/nfs/cello-home/home/ysaito/pychart/pychart/gs_frontend.py", line 33, in __write_contents
+    fp.writelines(self.__output_lines)
+IOError: [Errno 32] Broken pipe
+</pre>
+<dd> Perhaps the ghostscript is not working. 
+
+<dt> Q: I can't produce PDF or PNG files to stdout.
+
+<dd> There are two possible reasons: you are using Windows, or you are
+using an older version of ghostscript. In the 1st case, Python on
+Windows seems to do \n -> \r\n conversion on stdout no matter what,
+and that destroys binary data such as PDF or PNG. The 2nd problem
+looks solved in recent versions of Ghostscript (> 7.00). Think about
+updating.
+
+
+<p>For both cases, the easiest solution is to use the --output option:
+
+<pre>
+python foo.py --output=blah.pdf
+</pre>
+
+or environment variable PYCHART_OPTIONS:
+
+<pre>
+% PYCHART_OPTIONS="output=blah.pdf"
+% export PYCHART_OPTIONS
+% python foo.py
+</pre>
+
+<dt> Q: Have you thought about using <a href="http://www.pythonware.com/products/pil/">PIL</a> for drawing?
+<dd> Yes, and I rejected it. PIL doesn't support features that I use
+in pychart, including text rotation and clipping.
+
+</dl>

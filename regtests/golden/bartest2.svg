@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="259.986 -416.5 206.528 152.798" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 297 -297 L 297 -413 L 423 -413 L 423 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 300 -300 L 300 -410 L 420 -410 L 420 -300 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 297.5 -260.0 L 297.5 -300.0 L 302.5 -300.0 L 302.5 -260.0 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 324.16666666666669 -260.0 L 324.16666666666669 -390.0 L 329.16666666666669 -390.0 L 329.16666666666669 -260.0 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 350.83333333333331 -260.0 L 350.83333333333331 -370.0 L 355.83333333333331 -370.0 L 355.83333333333331 -260.0 Z"/>
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="M 377.5 -260.0 L 377.5 -350.0 L 382.5 -350.0 L 382.5 -260.0 Z"/>
+    </clipPath>
+    <clipPath id="clip6">
+      <path d="M 404.16666666666669 -260.0 L 404.16666666666669 -310.0 L 409.16666666666669 -310.0 L 409.16666666666669 -260.0 Z"/>
+    </clipPath>
+    <clipPath id="clip7">
+      <path d="M 427.0 -297 L 427.0 -309 L 463.51400000000001 -309 L 463.51400000000001 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip8">
+      <path d="M 432.0 -299.85000000000002 L 432.0 -306.14999999999998 L 438.30000000000001 -306.14999999999998 L 438.30000000000001 -299.85000000000002 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <path d="M 300 -300 L 420 -300"/>
+    <path d="M 300 -300 L 420 -300"/>
+    <path d="M 300.0 -300 L 300.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(30,295.666,-286.206)" x="295.66640887946267" y="-286.20577136594005">
+      10
+    </text>
+    <path d="M 353.33333333333331 -300 L 353.33333333333331 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(30,349,-286.206)" x="348.99974221279604" y="-286.20577136594005">
+      30
+    </text>
+    <path d="M 406.66666666666669 -300 L 406.66666666666669 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(30,402.333,-286.206)" x="402.33307554612935" y="-286.20577136594005">
+      50
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="356.99849999999998" y="-266.70177136594003">
+      X
+    </text>
+    <path d="M 300 -320.0 L 420 -320.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -340.0 L 420 -340.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -360.0 L 420 -360.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -380.0 L 420 -380.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -400.0 L 420 -400.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -300 L 300 -410"/>
+    <path d="M 300 -300.0 L 294 -300.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="283.99200000000002" y="-295.5">
+      20
+    </text>
+    <path d="M 300 -320.0 L 294 -320.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-315.5">
+      30.0
+    </text>
+    <path d="M 300 -340.0 L 294 -340.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-335.5">
+      40.0
+    </text>
+    <path d="M 300 -360.0 L 294 -360.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-355.5">
+      50.0
+    </text>
+    <path d="M 300 -380.0 L 294 -380.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-375.5">
+      60.0
+    </text>
+    <path d="M 300 -400.0 L 294 -400.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-395.5">
+      70.0
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-90,271.986,-336.244)" x="271.98599999999999" y="-336.24400000000003">
+      axis label
+    </text>
+    <g style="clip-path:url(#clip0);">
+      <g style="clip-path:url(#clip1);">
+        <g style="fill:rgb(126,126,126);clip-path:url(#clip2);">
+          <path d="M 297.5 -260.0 L 297.5 -300.0 L 302.5 -300.0 L 302.5 -260.0 Z" style="stroke:none;"/>
+        </g>
+        <path d="M 298.5 -294.0 L 301.5 -294.0"/>
+        <path d="M 298.5 -306.0 L 301.5 -306.0"/>
+        <path d="M 300.0 -294.0 L 300.0 -306.0"/>
+        <g style="fill:rgb(126,126,126);clip-path:url(#clip3);">
+          <path d="M 324.16666666666669 -260.0 L 324.16666666666669 -390.0 L 329.16666666666669 -390.0 L 329.16666666666669 -260.0 Z" style="stroke:none;"/>
+        </g>
+        <path d="M 325.16666666666669 -385.0 L 328.16666666666669 -385.0"/>
+        <path d="M 325.16666666666669 -395.0 L 328.16666666666669 -395.0"/>
+        <path d="M 326.66666666666669 -385.0 L 326.66666666666669 -395.0"/>
+        <g style="fill:rgb(126,126,126);clip-path:url(#clip4);">
+          <path d="M 350.83333333333331 -260.0 L 350.83333333333331 -370.0 L 355.83333333333331 -370.0 L 355.83333333333331 -260.0 Z" style="stroke:none;"/>
+        </g>
+        <path d="M 351.83333333333331 -360.0 L 354.83333333333331 -360.0"/>
+        <path d="M 351.83333333333331 -380.0 L 354.83333333333331 -380.0"/>
+        <path d="M 353.33333333333331 -360.0 L 353.33333333333331 -380.0"/>
+        <g style="fill:rgb(126,126,126);clip-path:url(#clip5);">
+          <path d="M 377.5 -260.0 L 377.5 -350.0 L 382.5 -350.0 L 382.5 -260.0 Z" style="stroke:none;"/>
+        </g>
+        <path d="M 378.5 -344.0 L 381.5 -344.0"/>
+        <path d="M 378.5 -356.0 L 381.5 -356.0"/>
+        <path d="M 380.0 -344.0 L 380.0 -356.0"/>
+        <g style="fill:rgb(126,126,126);clip-path:url(#clip6);">
+          <path d="M 404.16666666666669 -260.0 L 404.16666666666669 -310.0 L 409.16666666666669 -310.0 L 409.16666666666669 -260.0 Z" style="stroke:none;"/>
+        </g>
+        <path d="M 405.16666666666669 -306.0 L 408.16666666666669 -306.0"/>
+        <path d="M 405.16666666666669 -314.0 L 408.16666666666669 -314.0"/>
+        <path d="M 406.66666666666669 -306.0 L 406.66666666666669 -314.0"/>
+      </g>
+    </g>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip7);">
+      <path d="M 427.0 -297 L 427.0 -309 L 463.51400000000001 -309 L 463.51400000000001 -297 Z" style="stroke:none;"/>
+    </g>
+    <g>
+      <path d="M 427.0 -297 L 427.0 -309 L 463.51400000000001 -309 L 463.51400000000001 -297 Z"/>
+      <g style="fill:rgb(126,126,126);clip-path:url(#clip8);">
+        <path d="M 432.0 -299.85000000000002 L 432.0 -306.14999999999998 L 438.30000000000001 -306.14999999999998 L 438.30000000000001 -299.85000000000002 Z" style="stroke:none;"/>
+      </g>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="441.0" y="-300.0">
+        ???
+      </text>
+    </g>
+  </g>
+</svg>

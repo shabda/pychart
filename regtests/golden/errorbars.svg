@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="297 -863 508.001 566" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 395 -715 L 423.00900000000001 -715 L 423.009 -715 L 423.00900000000001 -729 L 423.009 -729 L 395 -729 L 395 -729 L 395 -715 L 395 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 445 -715 L 473.00900000000001 -715 L 473.009 -715 L 473.00900000000001 -729 L 473.009 -729 L 445 -729 L 445 -729 L 445 -715 L 445 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 495 -715 L 523.00900000000001 -715 L 523.009 -715 L 523.00900000000001 -729 L 523.009 -729 L 495 -729 L 495 -729 L 495 -715 L 495 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 545 -715 L 573.00900000000001 -715 L 573.009 -715 L 573.00900000000001 -729 L 573.009 -729 L 545 -729 L 545 -729 L 545 -715 L 545 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 548.0 -770 L 548.0 -830 L 552.0 -830 L 552.0 -770 Z"/>
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="M 595 -715 L 623.00900000000001 -715 L 623.009 -715 L 623.00900000000001 -729 L 623.009 -729 L 595 -729 L 595 -729 L 595 -715 L 595 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip6">
+      <path d="M 645 -715 L 673.00900000000001 -715 L 673.009 -715 L 673.00900000000001 -729 L 673.009 -729 L 645 -729 L 645 -729 L 645 -715 L 645 -715 Z"/>
+    </clipPath>
+    <clipPath id="clip7">
+      <path d="M 648.0 -740 L 648.0 -860 L 652.0 -860 L 652.0 -740 Z"/>
+    </clipPath>
+    <clipPath id="clip8">
+      <path d="M 735 -795 L 774.51099999999997 -795 L 774.511 -795 L 774.51099999999997 -809 L 774.511 -809 L 735 -809 L 735 -809 L 735 -795 L 735 -795 Z"/>
+    </clipPath>
+    <clipPath id="clip9">
+      <path d="M 775 -795 L 802.00099999999998 -795 L 802.001 -795 L 802.00099999999998 -818 L 802.001 -818 L 775 -818 L 775 -818 L 775 -795 L 775 -795 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip0);">
+      <path d="M 395 -715 L 395 -729 L 423.00900000000001 -729 L 423.00900000000001 -715 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="400.0" y="-720.0">
+      bar1
+    </text>
+    <path d="M 395.0 -740 L 405.0 -740"/>
+    <path d="M 395.0 -860 L 405.0 -860"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip1);">
+      <path d="M 445 -715 L 445 -729 L 473.00900000000001 -729 L 473.00900000000001 -715 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="450.0" y="-720.0">
+      bar2
+    </text>
+    <path d="M 448.5 -740 L 451.5 -740"/>
+    <path d="M 448.5 -860 L 451.5 -860"/>
+    <path d="M 450 -740 L 450 -860"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip2);">
+      <path d="M 495 -715 L 495 -729 L 523.00900000000001 -729 L 523.00900000000001 -715 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="500.0" y="-720.0">
+      bar3
+    </text>
+    <path d="M 500 -740 L 500 -770"/>
+    <path d="M 500 -830 L 500 -860"/>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip3);">
+      <path d="M 545 -715 L 545 -729 L 573.00900000000001 -729 L 573.00900000000001 -715 Z" style="stroke:none;"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="550.0" y="-720.0">
+      bar4
+    </text>
+    <path d="M 548.0 -740 L 552.0 -740"/>
+    <path d="M 548.0 -860 L 552.0 -860"/>
+    <path d="M 550 -740 L 550 -860"/>
+    <g style="fill:rgb(179,179,179);clip-path:url(#clip4);">
+      <path d="M 548.0 -770 L 548.0 -830 L 552.0 -830 L 552.0 -770 Z" style="stroke:none;"/>
+    </g>
+    <g>
+      <path d="M 548.0 -770 L 548.0 -830 L 552.0 -830 L 552.0 -770 Z"/>
+      <g style="fill:rgb(255,255,255);clip-path:url(#clip5);">
+        <path d="M 595 -715 L 595 -729 L 623.00900000000001 -729 L 623.00900000000001 -715 Z" style="stroke:none;"/>
+      </g>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="600.0" y="-720.0">
+        bar5
+      </text>
+      <path d="M 600 -740 L 600 -860"/>
+      <g style="fill:rgb(255,255,255);clip-path:url(#clip6);">
+        <path d="M 645 -715 L 645 -729 L 673.00900000000001 -729 L 673.00900000000001 -715 Z" style="stroke:none;"/>
+      </g>
+      <text style="stroke:none;fill:rgb(0,0,0);" x="650.0" y="-720.0">
+        bar6
+      </text>
+      <g style="fill:rgb(179,179,179);clip-path:url(#clip7);">
+        <path d="M 648.0 -740 L 648.0 -860 L 652.0 -860 L 652.0 -740 Z" style="stroke:none;"/>
+      </g>
+      <g>
+        <path d="M 648.0 -740 L 648.0 -860 L 652.0 -860 L 652.0 -740 Z"/>
+        <path d="M 648.0 -800.0 L 652.0 -800.0" style="stroke-width:0.5;"/>
+        <path d="M 380 -800 L 700 -800" style="stroke:rgb(179,179,179);stroke-dasharray:1.5,1.5;"/>
+        <path d="M 380 -770 L 700 -770" style="stroke:rgb(179,179,179);stroke-dasharray:1.5,1.5;"/>
+        <path d="M 380 -830 L 700 -830" style="stroke:rgb(179,179,179);stroke-dasharray:1.5,1.5;"/>
+        <g style="fill:rgb(255,255,255);clip-path:url(#clip8);">
+          <path d="M 735 -795 L 735 -809 L 774.51099999999997 -809 L 774.51099999999997 -795 Z" style="stroke:none;"/>
+        </g>
+        <text style="stroke:none;fill:rgb(0,0,0);" x="740.0" y="-800.0">
+          quartile
+        </text>
+        <g transform="translate(755,-809) rotate(-90)">
+          <path d="M 0 0 L 13.800000000000001 0"/>
+        </g>
+        <g style="fill:rgb(0,0,0);">
+          <g transform="translate(755,-809) rotate(-90)">
+            <path d="M 9.8000000000000007 2.0 L 13.0 0 L 9.8000000000000007 -2.0 L 21.0 0 Z" style="stroke:none;"/>
+          </g>
+          <g transform="translate(755,-795) rotate(90)">
+            <path d="M 0 0 L 17.800000000000001 0" style="fill:none;"/>
+          </g>
+          <g>
+            <g transform="translate(755,-795) rotate(90)">
+              <path d="M 13.800000000000001 2.0 L 17.0 0 L 13.800000000000001 -2.0 L 25.0 0 Z" style="stroke:none;"/>
+            </g>
+            <g style="fill:rgb(255,255,255);clip-path:url(#clip9);">
+              <path d="M 775 -795 L 775 -818 L 802.00099999999998 -818 L 802.00099999999998 -795 Z" style="stroke:none;"/>
+            </g>
+            <text style="stroke:none;" x="780.0" y="-809.0">
+              min/
+            </text>
+            <text style="stroke:none;" x="780.0" y="-800.0">
+              max
+            </text>
+            <g transform="translate(795,-818) rotate(-90)">
+              <path d="M 0 0 L 34.799999999999997 0" style="fill:none;"/>
+            </g>
+            <g>
+              <g transform="translate(795,-818) rotate(-90)">
+                <path d="M 30.800000000000001 2.0 L 34.0 0 L 30.800000000000001 -2.0 L 42.0 0 Z" style="stroke:none;"/>
+              </g>
+              <g transform="translate(795,-795) rotate(90)">
+                <path d="M 0 0 L 47.799999999999997 0" style="fill:none;"/>
+              </g>
+              <g>
+                <g transform="translate(795,-795) rotate(90)">
+                  <path d="M 43.799999999999997 2.0 L 47.0 0 L 43.799999999999997 -2.0 L 55.0 0 Z" style="stroke:none;"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

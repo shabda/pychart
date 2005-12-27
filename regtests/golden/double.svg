@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="257.484 -516.5 382.004 249" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 297 -297 L 297 -503 L 603 -503 L 603 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 297 -297 L 297 -503 L 603 -503 L 603 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 290 -290 L 290 -510 L 610 -510 L 610 -290 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 297 -297 L 297 -503 L 603 -503 L 603 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 297 -297 L 297 -503 L 603 -503 L 603 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="M 290 -290 L 290 -510 L 610 -510 L 610 -290 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <path d="M 300 -300 L 600 -300"/>
+    <path d="M 300 -300 L 600 -300"/>
+    <path d="M 300.0 -300 L 300.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="282.48599999999999" y="-285.0">
+      7/1/2002
+    </text>
+    <path d="M 366.66666666666669 -300 L 366.66666666666669 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="349.15266666666668" y="-285.0">
+      7/2/2002
+    </text>
+    <path d="M 433.33333333333337 -300 L 433.33333333333337 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="415.81933333333336" y="-285.0">
+      7/3/2002
+    </text>
+    <path d="M 500.0 -300 L 500.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="482.48599999999999" y="-285.0">
+      7/4/2002
+    </text>
+    <path d="M 566.66666666666674 -300 L 566.66666666666674 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="549.15266666666662" y="-285.0">
+      7/5/2002
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="440.49599999999998" y="-270.5">
+      Date
+    </text>
+    <path d="M 300 -340.0 L 600 -340.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -380.0 L 600 -380.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -420.0 L 600 -420.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -460.0 L 600 -460.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -500.0 L 600 -500.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -300 L 300 -500"/>
+    <path d="M 300 -300.0 L 294 -300.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-295.5">
+      9000
+    </text>
+    <path d="M 300 -340.0 L 294 -340.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-335.5">
+      9100
+    </text>
+    <path d="M 300 -380.0 L 294 -380.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-375.5">
+      9200
+    </text>
+    <path d="M 300 -420.0 L 294 -420.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-415.5">
+      9300
+    </text>
+    <path d="M 300 -460.0 L 294 -460.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-455.5">
+      9400
+    </text>
+    <path d="M 300 -500.0 L 294 -500.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="273.98399999999998" y="-495.5">
+      9500
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-90,269.484,-377.743)" x="269.48399999999998" y="-377.74299999999999">
+      Dow Jones
+    </text>
+    <g style="clip-path:url(#clip0);">
+      <g style="clip-path:url(#clip1);">
+        <path d="M 300.0 -451.60000000000002 L 366.66666666666669 -321.60000000000002 L 433.33333333333337 -302.80000000000001 L 500.0 -343.60000000000002 L 566.66666666666674 -397.19999999999999" style="stroke-width:1.2;"/>
+      </g>
+      <g style="clip-path:url(#clip2);"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-45,500,-328)" x="500.0" y="-328.0">
+      Dow Jones
+    </text>
+    <path d="M 300 -340.0 L 600 -340.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -380.0 L 600 -380.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -420.0 L 600 -420.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -460.0 L 600 -460.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -500.0 L 600 -500.0" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 600 -300 L 600 -500"/>
+    <path d="M 600 -300.0 L 606 -300.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-295.5">
+      940
+    </text>
+    <path d="M 600 -340.0 L 606 -340.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-335.5">
+      950
+    </text>
+    <path d="M 600 -380.0 L 606 -380.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-375.5">
+      960
+    </text>
+    <path d="M 600 -420.0 L 606 -420.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-415.5">
+      970
+    </text>
+    <path d="M 600 -460.0 L 606 -460.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-455.5">
+      980
+    </text>
+    <path d="M 600 -500.0 L 606 -500.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="606.0" y="-495.5">
+      990
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-90,636.488,-382.238)" x="636.48800000000006" y="-382.23849999999999">
+      S&amp;P 500
+    </text>
+    <g style="clip-path:url(#clip3);">
+      <g style="clip-path:url(#clip4);">
+        <path d="M 300.0 -496.0 L 366.66666666666669 -352.0 L 433.33333333333337 -332.0 L 500.0 -412.0 L 566.66666666666674 -496.0" style="stroke-width:1.2;stroke-dasharray:1.5,1.5;"/>
+      </g>
+      <g style="clip-path:url(#clip5);"/>
+    </g>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-50,500,-420)" x="500.0" y="-420.0">
+      S&amp;P 500
+    </text>
+  </g>
+</svg>

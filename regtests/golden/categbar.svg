@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="259.986 -413 234.536 145.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 297 -297 L 297 -413 L 423 -413 L 423 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 300 -300 L 300 -410 L 420 -410 L 420 -300 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 317.5 -300.0 L 317.5 -331.42857142857144 L 322.5 -331.42857142857144 L 322.5 -300.0 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 357.5 -300.0 L 357.5 -369.14285714285711 L 362.5 -369.14285714285711 L 362.5 -300.0 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 397.5 -300.0 L 397.5 -394.28571428571428 L 402.5 -394.28571428571428 L 402.5 -300.0 Z"/>
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="M 427.0 -297 L 427.0 -309 L 491.52199999999999 -309 L 491.52199999999999 -297 Z"/>
+    </clipPath>
+    <clipPath id="clip6">
+      <path d="M 432.0 -299.85000000000002 L 432.0 -306.14999999999998 L 438.30000000000001 -306.14999999999998 L 438.30000000000001 -299.85000000000002 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <path d="M 300 -300 L 420 -300"/>
+    <path d="M 300 -300 L 420 -300"/>
+    <path d="M 320.0 -300 L 320.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="312.74599999999998" y="-285.0">
+      Jan
+    </text>
+    <path d="M 360.0 -300 L 360.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="352.24649999999997" y="-285.0">
+      Feb
+    </text>
+    <path d="M 400.0 -300 L 400.0 -294"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="392.25099999999998" y="-285.0">
+      Mar
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="347.49450000000002" y="-270.5">
+      Month
+    </text>
+    <path d="M 300 -331.42857142857144 L 420 -331.42857142857144" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -362.85714285714283 L 420 -362.85714285714283" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -394.28571428571428 L 420 -394.28571428571428" style="stroke:rgb(179,179,179);stroke-dasharray:1,1;"/>
+    <path d="M 300 -300 L 300 -410"/>
+    <path d="M 300 -300.0 L 294 -300.0"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="288.99599999999998" y="-295.5">
+      0
+    </text>
+    <path d="M 300 -331.42857142857144 L 294 -331.42857142857144"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-326.92857142857144">
+      10.0
+    </text>
+    <path d="M 300 -362.85714285714283 L 294 -362.85714285714283"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-358.35714285714283">
+      20.0
+    </text>
+    <path d="M 300 -394.28571428571428 L 294 -394.28571428571428"/>
+    <text style="stroke:none;fill:rgb(0,0,0);" x="276.48599999999999" y="-389.78571428571428">
+      30.0
+    </text>
+    <text style="stroke:none;fill:rgb(0,0,0);" transform="rotate(-90,271.986,-343.493)" x="271.98599999999999" y="-343.49349999999998">
+      Value
+    </text>
+    <g style="clip-path:url(#clip0);">
+      <g style="clip-path:url(#clip1);">
+        <g style="fill:rgb(0,0,0);clip-path:url(#clip2);">
+          <path d="M 317.5 -300.0 L 317.5 -331.42857142857144 L 322.5 -331.42857142857144 L 322.5 -300.0 Z" style="stroke:none;"/>
+        </g>
+        <g>
+          <path d="M 317.5 -300.0 L 317.5 -331.42857142857144 L 322.5 -331.42857142857144 L 322.5 -300.0 Z"/>
+          <g style="fill:rgb(0,0,0);clip-path:url(#clip3);">
+            <path d="M 357.5 -300.0 L 357.5 -369.14285714285711 L 362.5 -369.14285714285711 L 362.5 -300.0 Z" style="stroke:none;"/>
+          </g>
+          <g>
+            <path d="M 357.5 -300.0 L 357.5 -369.14285714285711 L 362.5 -369.14285714285711 L 362.5 -300.0 Z"/>
+            <g style="fill:rgb(0,0,0);clip-path:url(#clip4);">
+              <path d="M 397.5 -300.0 L 397.5 -394.28571428571428 L 402.5 -394.28571428571428 L 402.5 -300.0 Z" style="stroke:none;"/>
+            </g>
+            <g>
+              <path d="M 397.5 -300.0 L 397.5 -394.28571428571428 L 402.5 -394.28571428571428 L 402.5 -300.0 Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g style="fill:rgb(255,255,255);clip-path:url(#clip5);">
+      <path d="M 427.0 -297 L 427.0 -309 L 491.52199999999999 -309 L 491.52199999999999 -297 Z" style="stroke:none;"/>
+    </g>
+    <g>
+      <path d="M 427.0 -297 L 427.0 -309 L 491.52199999999999 -309 L 491.52199999999999 -297 Z"/>
+      <g style="fill:rgb(0,0,0);clip-path:url(#clip6);">
+        <path d="M 432.0 -299.85000000000002 L 432.0 -306.14999999999998 L 438.30000000000001 -306.14999999999998 L 438.30000000000001 -299.85000000000002 Z" style="stroke:none;"/>
+      </g>
+      <g>
+        <path d="M 432.0 -299.85000000000002 L 432.0 -306.14999999999998 L 438.30000000000001 -306.14999999999998 L 438.30000000000001 -299.85000000000002 Z"/>
+        <text style="stroke:none;fill:rgb(0,0,0);" x="441.0" y="-300.0">
+          Something
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

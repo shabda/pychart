@@ -1,0 +1,6 @@
+include doc/*.py doc/Makefile doc/README doc/*.tex 
+include doc/pychart/*.html doc/pychart/*.png
+include demos/*.csv demos/*.py demos/Makefile
+include pychart/*.py pychart/afm/*.py
+include *.py 
+include COPYING README Makefile

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<!--Created by PyChart 1.38 Copyright 1999-2005 Yasushi Saito-->
+<svg viewBox="283 -423 163.003 147" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip0">
+      <path d="M 324.0 -396.0 M 326.0 -396.0 L 326 -396 M 326 -396 A 2 2 0 1 0 322 -396 A 2 2 0 1 0 326 -396 Z"/>
+    </clipPath>
+    <clipPath id="clip1">
+      <path d="M 348.0 -372.0 M 350.0 -372.0 L 350 -372 M 350 -372 A 2 2 0 1 0 346 -372 A 2 2 0 1 0 350 -372 Z"/>
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 372.0 -348.0 M 374.0 -348.0 L 374 -348 M 374 -348 A 2 2 0 1 0 370 -348 A 2 2 0 1 0 374 -348 Z"/>
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 396.0 -324.0 M 398.0 -324.0 L 398 -324 M 398 -324 A 2 2 0 1 0 394 -324 A 2 2 0 1 0 398 -324 Z"/>
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 396.0 -396.0 M 398.0 -396.0 L 398 -396 M 398 -396 A 2 2 0 1 0 394 -396 A 2 2 0 1 0 398 -396 Z"/>
+    </clipPath>
+  </defs>
+  <g style="stroke-linejoin:miter;font-size:9;font-family:Helvetica;fill:none;stroke-linecap:butt;stroke:rgb(0,0,0);font-stretch:normal;stroke-dasharray:none;font-weight:normal;font-style:normal;stroke-width:0.4;">
+    <g transform="translate(300,-300) rotate(-90)">
+      <path d="M 0 0 L 112.8 0" style="stroke-width:1;"/>
+    </g>
+    <g style="fill:rgb(0,0,0);">
+      <g transform="translate(300,-300) rotate(-90)">
+        <path d="M 108.8 2.0 L 112.0 0 L 108.8 -2.0 L 120.0 0 Z" style="stroke:none;"/>
+      </g>
+      <g transform="translate(300,-300)">
+        <path d="M 0 0 L 112.8 0" style="stroke-width:1;fill:none;"/>
+      </g>
+      <g>
+        <g transform="translate(300,-300)">
+          <path d="M 108.8 2.0 L 112.0 0 L 108.8 -2.0 L 120.0 0 Z" style="stroke:none;"/>
+        </g>
+        <text style="stroke:none;" transform="rotate(-90,295,-332.24)" x="295.0" y="-332.23950000000002">
+          Manageability
+        </text>
+        <text style="stroke:none;" x="310.0" y="-288.0">
+          Performance&amp;availability
+        </text>
+        <text style="stroke:none;" x="310.0" y="-279.0">
+          /cost
+        </text>
+        <g style="clip-path:url(#clip0);">
+          <path d="M 320.0 -392.0 L 320.0 -400.0 L 328.0 -400.0 L 328.0 -392.0 Z" style="stroke:none;"/>
+        </g>
+        <g>
+          <path d="M 324.0 -396.0 M 326.0 -396.0 L 326 -396 M 326 -396 A 2 2 0 1 0 322 -396 A 2 2 0 1 0 326 -396 Z" style="fill:none;"/>
+          <text style="stroke:none;font-family:Times;" x="329.0" y="-396.0">
+            Monolithic
+          </text>
+          <text style="stroke:none;font-family:Times;" x="329.0" y="-388.0">
+            Server
+          </text>
+          <g style="clip-path:url(#clip1);">
+            <path d="M 344.0 -368.0 L 344.0 -376.0 L 352.0 -376.0 L 352.0 -368.0 Z" style="stroke:none;"/>
+          </g>
+          <g>
+            <path d="M 348.0 -372.0 M 350.0 -372.0 L 350 -372 M 350 -372 A 2 2 0 1 0 346 -372 A 2 2 0 1 0 350 -372 Z" style="fill:none;"/>
+            <text style="stroke:none;font-family:Times;" x="353.0" y="-372.0">
+              Cluster-based
+            </text>
+            <text style="stroke:none;font-family:Times;" x="353.0" y="-364.0">
+              operating system
+            </text>
+            <g style="clip-path:url(#clip2);">
+              <path d="M 368.0 -344.0 L 368.0 -352.0 L 376.0 -352.0 L 376.0 -344.0 Z" style="stroke:none;"/>
+            </g>
+            <g>
+              <path d="M 372.0 -348.0 M 374.0 -348.0 L 374 -348 M 374 -348 A 2 2 0 1 0 370 -348 A 2 2 0 1 0 374 -348 Z" style="fill:none;"/>
+              <text style="stroke:none;font-family:Times;" x="377.0" y="-348.0">
+                Distributed
+              </text>
+              <text style="stroke:none;font-family:Times;" x="377.0" y="-340.0">
+                file system
+              </text>
+              <g style="clip-path:url(#clip3);">
+                <path d="M 392.0 -320.0 L 392.0 -328.0 L 400.0 -328.0 L 400.0 -320.0 Z" style="stroke:none;"/>
+              </g>
+              <g>
+                <path d="M 396.0 -324.0 M 398.0 -324.0 L 398 -324 M 398 -324 A 2 2 0 1 0 394 -324 A 2 2 0 1 0 398 -324 Z" style="fill:none;"/>
+                <text style="stroke:none;font-family:Times;" x="401.0" y="-324.0">
+                  Static
+                </text>
+                <text style="stroke:none;font-family:Times;" x="401.0" y="-316.0">
+                  partitioning
+                </text>
+                <g style="clip-path:url(#clip4);">
+                  <path d="M 392.0 -392.0 L 392.0 -400.0 L 400.0 -400.0 L 400.0 -392.0 Z" style="stroke:none;"/>
+                </g>
+                <g>
+                  <path d="M 396.0 -396.0 M 398.0 -396.0 L 398 -396 M 398 -396 A 2 2 0 1 0 394 -396 A 2 2 0 1 0 398 -396 Z" style="fill:none;"/>
+                  <text style="stroke:none;font-family:Times;" x="401.0" y="-391.5">
+                    Porcupine
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
