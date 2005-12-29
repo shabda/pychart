@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2000-2005 by Yasushi Saito (yasushi.saito@gmail.com)
-# 
+#
 # Jockey is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
 # Free Software Foundation; either version 2, or (at your option) any
@@ -35,7 +35,7 @@ class pdf_stream(object):
         self.off += len(str)
     def tell(self):
         return self.off
-        
+
 def to_radian(deg):
     return deg*2*math.pi / 360.0
 
@@ -47,7 +47,10 @@ class T(basecanvas.T):
         self.__next_obj_id = 1
         self.__next_font_id = 1
         self.__obj_offsets = {}
+
+        # Maps font name -> integer font ID.
         self.__registered_fonts = {}
+
         self.__lines = []
         self.__nr_gsave = 0
 
@@ -56,8 +59,8 @@ class T(basecanvas.T):
 	    compress_p_ = 0
         self.__compress_p = compress_p_
 
-    def __intern_font(self, name):
-        "Assign an ID to the font NAME. Return its ID." 
+    def __register_font(self, name):
+        "Assign an ID to the font NAME. Return its ID."
         if not self.__registered_fonts.has_key(name):
             self.__registered_fonts[name] = self.__next_font_id
             self.__next_font_id += 1
@@ -75,7 +78,7 @@ class T(basecanvas.T):
             p = zlib.compress(s)
             return self.__define_obj(fp, "<</Length %d/Filter/FlateDecode>>\nstream\n%sendstream"
                               % (len(p), p))
-        else:            
+        else:
             return self.__define_obj(fp, "<</Length %d\n>>\nstream\n%s\nendstream"
                               % (len(s), s))
 
@@ -106,7 +109,7 @@ class T(basecanvas.T):
     def set_stroke_color(self, color):
         self.set_fill_color(color)
         return
-                
+
     def __arcsub(self, x, y, radius, start, theta):
 	xcos = math.cos(to_radian(theta))
 	xsin = math.sin(to_radian(theta))
@@ -148,7 +151,7 @@ class T(basecanvas.T):
         self.__write("BT ")
         self.__font_name = None
         self.__font_size = None
-        
+
     def text_end(self):
         self.__write("ET\n")
     def text_moveto(self, x, y, angle):
@@ -161,8 +164,7 @@ class T(basecanvas.T):
 
     def text_show(self, font_name, font_size, color, str):
         if self.__font_name  != font_name or self.__font_size != font_size:
-            font_id = self.__intern_font(font_name)
-            self.__write("/F%d %d Tf " % (font_id, font_size))
+            self.__write("/F%d %d Tf " % (self.__register_font(font_name), font_size))
             self.__font_name = font_name
             self.__font_size = font_size
         self.set_fill_color(color)
@@ -174,7 +176,7 @@ class T(basecanvas.T):
         else:
             op = "cm"
             self.gsave()
-            
+
         if baseloc == None:
             baseloc = (0,0)
 
@@ -188,7 +190,7 @@ class T(basecanvas.T):
             self.__write("%f 0 0 %f %f %f %s\n" % (scale[0], scale[1],
                                                    baseloc[0],
                                                    baseloc[1], op))
-        
+
     def pop_transformation(self, in_text = 0):
         if not in_text:
             self.grestore()
@@ -203,7 +205,7 @@ class T(basecanvas.T):
     def grestore(self):
         self.__write("Q\n")
         self.__reset_context()
-        
+
     def moveto(self, x, y):
         self.__write('%f %f m ' % (x, y))
     def lineto(self, x, y):
@@ -223,8 +225,8 @@ class T(basecanvas.T):
             else:
                 self.__write("[] 0 d\n")
             self.__write("%d j %d J\n" % (style.cap_style, style.join_style))
-            self.__line_style = style        
-    
+            self.__line_style = style
+
     def comment(self, str):
         if not self.__compress_p:
             self.__write("%%" + str + "\n")
@@ -234,7 +236,7 @@ class T(basecanvas.T):
 
     def __write(self, str):
         self.__lines.append(str)
-        
+
     def close(self):
         basecanvas.T.close(self)
 	if self.__lines == []:
@@ -251,28 +253,28 @@ class T(basecanvas.T):
         for font_name, font_id in self.__registered_fonts.items():
             obj_id = self.__define_font_obj(fp, font_name, font_id)
             fontstr += "/F%d %d 0 R " % (font_id, obj_id)
-        
+
         pages_obj_id = self.__define_obj(fp, " <</Type/Pages /Kids [%d 0 R] /Count 1 >>" % (self.__next_obj_id + 1))
 
         bbox = theme.adjust_bounding_box([xscale(self.__xmin), yscale(self.__ymin),
                                           xscale(self.__xmax), yscale(self.__ymax)])
-        
+
         page_obj_id = self.__define_obj(fp, """  <</Type/Page
 \t/Parent %d 0 R
 \t/Contents %d 0 R
 \t/MediaBox [%d %d %d %d]
 \t/Resources << /ProcSet [/PDF /Text]
 \t\t/Font << %s >>
->> >>""" % (pages_obj_id, stream_obj_id, 
+>> >>""" % (pages_obj_id, stream_obj_id,
             bbox[0], bbox[1], bbox[2], bbox[3], fontstr))
 
         info_str = "/Producer (%s)\n/CreationDate (%s)" % (self.creator, self.creation_date)
-        
+
         if self.title:
             info_str += "\n/Title (%s)" % (self.title, )
         if self.author:
             info_str += "\n/Author (%s)" % (self.author, )
-            
+
         info_obj_id = self.__define_obj(fp, """<<%s>>""" % info_str)
         catalog_obj_id = self.__define_obj(fp, """  <</Type/Catalog/Pages %d 0 R>>""" % (pages_obj_id))
 
