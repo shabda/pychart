@@ -13,11 +13,11 @@ install:
 	#rm -f $(WWW_DIR)/examples/*
 	cp -r doc/pychart/* $(WWW_DIR)/doc
 	cp -r doc/examples/* $(WWW_DIR)/examples
-	baz changelog >$(WWW_DIR)/ChangeLog
+	bzr log >$(WWW_DIR)/ChangeLog
 
 copy:
 	rm -rf ,,download
 	mkdir ,,download
 	(cd doc; tar czf ../,,download/pychart-doc.tar.gz pychart)
-	cp dist/PyChart-1.38.tar.gz ,,download
-	rsync --delete -avr --rsh="ssh" ,,download/* ysaito@download.gna.org:/upload/pychart
+	cp dist/PyChart-1.39.tar.gz ,,download
+	rsync -avr --rsh="ssh" ,,download/* ysaito@download.gna.org:/upload/pychart
